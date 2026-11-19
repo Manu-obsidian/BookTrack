@@ -6,6 +6,10 @@ export const routes: Routes = [
     loadComponent: () => import('./home/home.page').then((m) => m.HomePage),
   },
   {
+    path: 'catalog',
+    loadComponent: () => import('./catalog/catalog.page').then((m) => m.CatalogPage),
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',

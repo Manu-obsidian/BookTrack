@@ -1,0 +1,42 @@
+
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Catálogo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <main class="catalog-container">
+
+    <section class="catalog-intro">
+      <p class="eyebrow">EXPLORE NOVAS HISTÓRIAS</p>
+      <h1>Encontre sua próxima leitura.</h1>
+      <p>Descubra livros, autores e universos diferentes.</p>
+    </section>
+
+    <section class="search-section">
+      <ion-searchbar
+        placeholder="Buscar por título ou autor..."
+        animated="true"
+        class="book-search">
+      </ion-searchbar>
+    </section>
+
+    <section class="catalog-heading">
+      <div>
+        <p class="eyebrow">BIBLIOTECA</p>
+        <h2>Explore os livros</h2>
+      </div>
+    </section>
+
+    <section class="empty-state">
+      <div class="empty-icon">📚</div>
+      <h3>Sua próxima história está aqui</h3>
+      <p>
+        Pesquise por um livro ou autor para
+        começar a explorar nosso catálogo.
+      </p>
+    </section>
+
+  </main>
+</ion-content>
