@@ -8,6 +8,13 @@ import {
   IonLabel
 } from '@ionic/angular';
 
+import { addIcons } from 'ionicons';
+import {
+  homeOutline,
+  searchOutline,
+  heartOutline
+} from 'ionicons/icons';
+
 @Component({
   selector: 'app-app-tabs',
   templateUrl: './app-tabs.component.html',
@@ -20,4 +27,12 @@ import {
     IonLabel
   ],
 })
-export class AppTabsComponent {}
+export class AppTabsComponent {
+  constructor() {
+    addIcons({
+      homeOutline,
+      searchOutline,
+      heartOutline
+    });
+  }
+}
