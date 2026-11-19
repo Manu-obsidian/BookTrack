@@ -1,0 +1,143 @@
+
+ion-header {
+  ion-toolbar {
+    --background: #F7F3EB;
+    --color: #30251F;
+    --min-height: 65px;
+  }
+
+  ion-title {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+}
+
+ion-content {
+  --background: #F7F3EB;
+}
+
+.details-container {
+  padding: 28px 22px 100px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.book-presentation {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 38px;
+}
+
+.book-cover {
+  min-width: 125px;
+  width: 125px;
+  height: 180px;
+  background: #E8DDCC;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  box-shadow: 4px 5px 12px #30251F20;
+}
+
+.book-cover span {
+  font-size: 42px;
+}
+
+.book-cover small {
+  color: #674832;
+  font-size: 9px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.eyebrow {
+  color: #A47755;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.book-info h1 {
+  color: #30251F;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 8px;
+}
+
+.book-author {
+  color: #806B59;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.book-category {
+  display: inline-block;
+  background: #E8DDCC;
+  color: #674832;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.book-description,
+.book-publication {
+  margin-bottom: 30px;
+}
+
+.book-description h2,
+.book-publication h2 {
+  color: #30251F;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.book-description p {
+  color: #806B59;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid #E8DDCC;
+  font-size: 13px;
+}
+
+.info-item span {
+  color: #806B59;
+}
+
+.info-item strong {
+  color: #30251F;
+  text-align: right;
+}
+
+.favorite-button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 14px;
+  background: #674832;
+  color: #FFFCF7;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.favorite-button:hover {
+  background: #A47755;
+  transform: translateY(-2px);
+}
